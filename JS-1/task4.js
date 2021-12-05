@@ -26,5 +26,4 @@ else if  (droidQuantity == null) {alert('canceled by customer!');
 } 
 else  {alert ( 'You bought' + ' ' + droidQuantity + ' ' + 'droids!' + ' ' + 'remaining credit is ' + leftCredit)}
 
-
 console.log ('Thx for visiting us!');

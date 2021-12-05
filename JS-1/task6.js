@@ -11,3 +11,42 @@
 //   сумме не нужно, после чего снова пользователю предлагается ввести число в prompt.
 // let input; 
 // let total = 0;
+
+// ======================================
+// let sum = 0;
+
+// let input = prompt ('Enter your number!', '0').split (",");
+// let inputNum = parseInt (input);
+// // console.log (typeof inputNum);
+// // console.log (inputNum);
+// if (input == null) {alert('input is not a number!')};
+
+// // do { 
+// // sum = sum + inputNum ;
+// //   }    while (input !== null);
+
+// // alert ('the sum of your numbers is' + ' ' + sum);
+
+// ====================
+
+function total() {
+
+    let numbers = [];
+ 
+    while (true) {
+ 
+       let value = prompt("A number please?", 0);
+ 
+       if (value === null) break;
+       
+       numbers.push(+value);
+    }
+ 
+    let sum = 0;
+    for (let number of numbers) {
+       sum += number;
+    }
+    return sum ;
+ }
+ 
+ alert('The sum of your numbers is ' + total());
