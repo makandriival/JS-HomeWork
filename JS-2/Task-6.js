@@ -15,3 +15,7 @@
 // const numbers = [];
 // let total = 0;
 
+let numbers = ('');
+let total = 0;
+
+let input = prompt('Type in your number pls!', '0');

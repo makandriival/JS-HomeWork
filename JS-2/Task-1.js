@@ -27,6 +27,6 @@ const logItems = function (array) {
     console.log (ind +' - '+ item);
     }
 }
-logItems(fruits)
 
+logItems(fruits)
 logItems(nums)
