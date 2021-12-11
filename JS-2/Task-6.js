@@ -15,7 +15,26 @@
 // const numbers = [];
 // let total = 0;
 
-let numbers = ('');
+const numbers = [];
 let total = 0;
 
-let input = prompt('Type in your number pls!', '0');
+
+for (let i = 0; true; i++) {
+    let input = +prompt('Type in your number pls!');
+   
+    if (input) {
+        numbers.push(input);     
+    }
+    else
+    {
+        if (numbers.length) {
+            for (let num of numbers) {
+                total += num;
+            }
+        }
+        break;
+        
+    }
+}
+   
+alert ('You entered: ' + numbers + ' || ' + 'Total is: ' + total);  
