@@ -17,6 +17,4 @@ const checkForSpam = function(message) {
       }
   };
 
-  message('Get best sale offers now!');
-  ;
-
+  message('[SPAM] Get best sale offers now!');
