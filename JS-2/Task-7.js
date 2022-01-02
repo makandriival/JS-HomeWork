@@ -87,3 +87,5 @@ const addLogin = function (allLogins, login) {
     }
 }
 alert (addLogin(logins, login));
+
+// stolen!

@@ -38,3 +38,6 @@ for (let i = 0; true; i++) {
 }
    
 alert ('You entered: ' + numbers + ' || ' + 'Total is: ' + total);  
+
+
+// stolen!
