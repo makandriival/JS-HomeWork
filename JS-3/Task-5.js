@@ -10,9 +10,7 @@ const products = [
 ];
 
 const getAllPropValues = function(arr, prop) {
-    return array.forEach(element => {
-        
-    });
+    return arr
 };
 
 // /*
